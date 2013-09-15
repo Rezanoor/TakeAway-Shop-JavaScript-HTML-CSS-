@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<LINK href="style.css" rel="stylesheet" type="text/css">
+
+	<!-- THE JS FILE DOING ALL JS PROCESS IN THE PAGE -->
+
+	<script src="OrderingProcess.js"></script>
+	<meta charset = "utf-8">
+
+	<title></title>
+
+	<script language="JavaScript">
+
+    </script>
+	<style type = "text/css">
+
+	</style>
+
+	</head>
+
+	<body>
+	<center>
+	<div class="logo_div">
+
+	</div>
+	<h3><b> Please select your order by clicking on the picture</b> </h3>
+	</br><h3> Your order will be placed under the menu </h3>
+	<div class="menu_div">
+		<table border="1" cellspacing="10" cellpadding="10">
+			<caption>
+			Menu
+			<caption>
+			<thead>
+
+			</thead>
+			<tbody>
+			<tr>
+				<td style='background-color:rgb(153,255,102)'>
+				Cakes
+				</td>
+
+				<td style='background-color:rgb(153,255,102)'>
+				Drinks
+				</td>
+
+				<td style='background-color:rgb(153,255,102)'>
+				Meals
+				</td>
+
+				<td style='background-color:rgb(153,255,102)'>
+				Pizzas
+				</td>
+
+				<td style='background-color:rgb(153,255,102)'>
+				Sandwiches
+				</td>
+
+				<td style='background-color:rgb(153,255,102)'>
+				Vegetables
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					<img alt="Frosty White Dumplings" src="MenuImages/C1.jpg" width="100px" height="100px" onclick="AddToList('Frosty White Dumplings','6.00');" /></br>
+					Frosty White Dumplings </br>
+					$6.00
+				</td>
+
+				<td>
+					<img alt="Coffee" src="MenuImages/D1.jpg" width="100px" height="100px" onclick="AddToList('Coffee','2.40');"/></br>
+					Coffee </br>
+					$2.40
+				</td>
+
+				<td>
+					<img alt="Beef Teriyaki" src="MenuImages/M1.jpg" width="100px" height="100px" onclick="AddToList('Beef Teriyaki','12.35');"/></br>
+					Beef Teriyaki </br>
+					$12.35
+				</td>
+
+				<td>
+					<img alt="Mushroom Pizza" src="MenuImages/P1.jpg" width="100px" height="100px" onclick="AddToList('Mushroom Pizza','12.00');"/></br>
+					Mushroom Pizza </br>
+					$12.00
+				</td>
+
+				<td>
+					<img alt="Seafood Sandwich" src="MenuImages/S1.jpg" width="100px" height="100px" onclick="AddToList('Seafood Sandwich','4.50');"/></br>
+					Seafood Sandwich </br>
+					$4.50
+				</td>
+				<td>
+					<img alt="Fruit Salad" src="MenuImages/V1.jpg" width="100px" height="100px" onclick="AddToList('Fruit Salad','5.35');"/></br>
+					Fruit Salad </br>
+					$5.35
+				</td>
+
+
+			</tr>
+
+			<tr>
+				<td>
+					<img alt="Jelly Doughnuts" src="MenuImages/C2.jpg" width="100px" height="100px" onclick="AddToList('Jelly Doughnuts','4.00');"/></br>
+					Jelly Doughnuts </br>
+					$4.00
+				</td>
+
+				<td>
+					<img alt="Coffee Latte" src="MenuImages/D2.jpg" width="100px" height="100px" onclick="AddToList('Coffee Latte','4.50');"/></br>
+					Coffee Latte </br>
+					$4.50
+				</td>
+
+				<td>
+					<img alt="Chicken Grill" src="MenuImages/M2.jpg" width="100px" height="100px" onclick="AddToList('Chicken Grill','8.50');"/></br>
+					Chicken Grill </br>
+					$8.50
+				</td>
+
+				<td>
+					<img alt="Veggie Pizza" src="MenuImages/P2.jpg" width="100px" height="100px" onclick="AddToList('Veggie Pizza','13.00');"/></br>
+					Veggie Pizza </br>
+					$13.00
+				</td>
+				<td>
+					<img alt="Deli Sandwich" src="MenuImages/S2.jpg" width="100px" height="100px" onclick="AddToList('Deli Sandwich','5.50');"/></br>
+					Deli Sandwich </br>
+					$5.50
+				</td>
+
+				<td>
+					<img alt="Veggie Mix Salad" src="MenuImages/V2.jpg" width="100px" height="100px" onclick="AddToList('Veggie Mix Salad','4.65');"/></br>
+					Veggie Mix Salad </br>
+					$4.65
+				</td>
+
+
+
+
+			</tr>
+
+			<tr>
+				<td>
+
+				</td>
+				<td>
+
+				</td>
+
+
+				<td>
+					<img alt="Grill Chicken" src="MenuImages/M5.jpg" width="100px" height="100px" onclick="AddToList('Grill Chicken','12.35');"/></br>
+					Grill Chicken </br>
+					$12.35
+				</td>
+
+
+
+				<td>
+					<img alt="Seafood and Salad Pizza" src="MenuImages/P3.jpg" width="100px" height="100px" onclick="AddToList('Seafood and Salad Pizza','14.00');"/></br>
+					Seafood and Salad Pizza </br>
+					$14.00
+				</td>
+
+				<td>
+					<img alt="Double Burger" src="MenuImages/S3.jpg" width="100px" height="100px" onclick="AddToList('Double Burger','4.50');"/></br>
+					Double Burger </br>
+					$4.50
+				</td>
+
+				<td>
+					<img alt="Yellow Rice and Salad" src="MenuImages/V3.jpg" width="100px" height="100px" onclick="AddToList('Yellow Rice and Salad','6.45');"/></br>
+					Yellow Rice and Salad </br>
+					$6.45
+				</td>
+
+
+			</tr>
+
+			<tr>
+				<td>
+				</td>
+
+				<td>
+				</td>
+
+				<td>
+					<img alt="Grill Steak" src="MenuImages/M3.jpg" width="100px" height="100px" onclick="AddToList('Grill Steak','11.50');"/></br>
+					Grill Steak </br>
+					$11.50
+				</td>
+
+				<td>
+					<img alt="Avocado Pizza" src="MenuImages/P4.jpg" width="100px" height="100px" onclick="AddToList('Avocado Pizza','14.00');"/></br>
+					Avocado Pizza </br>
+					$14.00
+				</td>
+
+				<td>
+					<img alt="Meat Patty Burger" src="MenuImages/S4.jpg" width="100px" height="100px" onclick="AddToList('Meat Patty Burger','5.50');"/></br>
+					Meat Patty Burger </br>
+					$5.50
+				</td>
+
+				<td>
+				</td>
+
+
+			</tr>
+			<tr>
+			<td>
+
+			</td>
+			<td>
+
+			</td>
+
+			<td>
+				<img alt="Grill Prawn" src="MenuImages/M4.jpg" width="100px" height="100px" onclick="AddToList('Grill Prawn','5.35');"/></br>
+				Grill Prawn
+				$5.35
+			</td>
+
+			<td>
+
+			</td>
+
+			<td>
+
+			</td>
+
+			<td>
+
+			</td>
+
+			</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+	<div id="OrderList" class="orderlist_div">
+
+	</div>
+	<div id="TotalPrice" class="totalprice_div">
+	</div>
+
+
+	<div class="control_div">
+	<input type='button' value='Delivery' onclick='Delivery()' />
+	<input type='button' value='Pick Up' onclick='PickUp()'/>
+	</div>
+	</center>
+	</body>
+</html>
